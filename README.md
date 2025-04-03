@@ -16,3 +16,5 @@ This oversampling methodology enables effective noise averaging while maintainin
 
 In OpenSensorDAQ, we put the bias voltage and voltage measurement via the same circuit board, so as to remove fluctuations in the bias voltage by design. 
 A low pass filter removes high frequency noise. 
+
+The circuit diagrams are printed and the components soldered on the board. Electically shielded box is usually preferred. 
