@@ -17,7 +17,10 @@ This oversampling methodology enables effective noise averaging while maintainin
 In OpenSensorDAQ, we put the bias voltage and voltage measurement via the same circuit board, so as to remove fluctuations in the bias voltage by design. 
 A low pass filter removes high frequency noise. 
 
-The circuit diagrams are printed and the components soldered on the board. Electically shielded box is usually preferred. 
+Circuit was designed in open-source KiCad. The circuit diagrams are printed and the components soldered on the board. Electically shielded box is usually preferred. 
 
 Key features of the board: 
-1. ** Can be powered by 12-24 V DC**
+1. **Can be powered by 12-24 V DC**
+2. **ADS8866 provides high 16-bit resolution and sampling rate of 100k Hz.**
+
+Upcoming: MicroController circuit interfaced to the ADC circuit and communicating with PC via Direct SPI/I2C to USB bridge over USB Type-C. 
