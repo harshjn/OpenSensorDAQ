@@ -18,3 +18,6 @@ In OpenSensorDAQ, we put the bias voltage and voltage measurement via the same c
 A low pass filter removes high frequency noise. 
 
 The circuit diagrams are printed and the components soldered on the board. Electically shielded box is usually preferred. 
+
+Key features of the board: 
+1. ** Can be powered by 12-24 V DC**
