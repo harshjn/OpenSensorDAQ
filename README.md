@@ -1,5 +1,7 @@
 # OpenSensorDAQ:
-A Fast High resolution (16-bit) analog sensor Analog to Digital conversion and Data acquisition system with low noise characteristics, built in microprocessor for serial communication and modular design for interfacing. 
+A Fast High resolution (16-bit) analog sensor Analog to Digital conversion and Data acquisition system with low noise characteristics, built in microprocessor for serial communication and modular design for interfacing.
+
+Circuit Designs by Venkatesh Keshava Reddy @ Nest Consultancy Services. 
 
 Electronic transducers utilizing Wheatstone bridge configurations serve as the foundation for numerous sensing methodologies, including strain gauges, pressure transducers, and load cells. These impedance-based sensors operate on the principle of resistance variation converted to measurable voltage differentials.
 
