@@ -1,12 +1,11 @@
 # OpenSensorDAQ:
-A Fast High resolution (16-bit) analog sensor Analog to Digital conversion and Data acquisition system with low noise characteristics, built in microprocessor for serial communication and modular design for interfacing.
+A Fast High resolution platform for analog sensing, Analog to Digital conversion and Data acquisition with low noise characteristics and USB interfacing with the PC.
 
-Circuit Designs by Venkatesh Keshava Reddy @ Nest Consultancy Services, Bangalore.
+Sensor: 0.2MPa pressure sensor, https://robu.in/product/pro-range-pr12-p145b-pressure-sensors-00-2mpa-0-54-5v-g1-4
+ADC: National Instruments USB-6002, https://www.digikey.in/en/products/detail/ni/782602-01/12817647
+Amplifier Design: Based on AD624, https://github.com/harshjn/OpenSensorDAQ/blob/main/Amplifier%20Gain%20Circuit%20diagram.jpg
 
-[comment]: <> (Price of the board - INR 15000/- without Taxes. )
-
-
-Electronic transducers utilizing Wheatstone bridge configurations serve as the foundation for numerous sensing methodologies, including strain gauges, pressure transducers, and load cells. These impedance-based sensors operate on the principle of resistance variation converted to measurable voltage differentials.
+Electronic transducers typically utilize Wheatstone bridge configurations serve that serve as the foundation for numerous sensing methodologies, including strain gauges, pressure transducers, and load cells. These impedance-based sensors operate on the principle of resistance variation converted to measurable voltage differentials.
 
 The bridge circuit receives excitation from a precision reference voltage source, with the resulting signal captured via single-ended or differential input configurations by an Analog-to-Digital Converter (ADC) within the Data Acquisition (DAQ) system architecture.
 
