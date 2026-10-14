@@ -2,6 +2,7 @@
 A Fast High resolution platform for analog sensing, Analog to Digital conversion and Data acquisition with low noise characteristics and USB interfacing with the PC.
 
 Visit here for full Micropipette-Aspiration-Setup: https://github.com/harshjn/MicroPipette-Aspiration-Setup
+
 Cite this project as:
 @misc{jain2025opensensordaq,
   author       = {Jain, Harsh},
