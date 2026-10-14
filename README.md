@@ -1,6 +1,17 @@
 # OpenSensorDAQ:
 A Fast High resolution platform for analog sensing, Analog to Digital conversion and Data acquisition with low noise characteristics and USB interfacing with the PC.
 
+Visit here for full Micropipette-Aspiration-Setup: https://github.com/harshjn/MicroPipette-Aspiration-Setup
+Cite this project as:
+@misc{jain2025opensensordaq,
+  author       = {Jain, Harsh},
+  title        = {{OpenSensorDAQ}: Fast High-Resolution (16-bit) Analog Sensor
+                  Data Acquisition System with Low Noise Characteristics},
+  year         = {2025},
+  publisher    = {GitHub},
+  howpublished = {\url{https://github.com/harshjn/OpenSensorDAQ}}
+  }
+
 Sensor: 0.2MPa pressure sensor, https://robu.in/product/pro-range-pr12-p145b-pressure-sensors-00-2mpa-0-54-5v-g1-4
 ADC: National Instruments USB-6002, https://www.digikey.in/en/products/detail/ni/782602-01/12817647
 Amplifier Design: Based on AD624, https://github.com/harshjn/OpenSensorDAQ/blob/main/Amplifier%20Gain%20Circuit%20diagram.jpg
@@ -19,12 +30,10 @@ Implementing high-frequency sampling rates (≥1 kHz) provides a significant adv
 This oversampling methodology enables effective noise averaging while maintaining good accuracy of measurement for the underlying physical process being measured.
 
 In OpenSensorDAQ, we put the bias voltage and voltage measurement via the same circuit board, so as to remove fluctuations in the bias voltage by design. 
-A low pass filter removes high frequency noise. 
 
-Circuit was designed in open-source KiCad. The circuit diagrams are printed and the components soldered on the board. Electically shielded box is usually preferred. 
-
-Key features of the board: 
+Future plan:
 1. **Can be powered by 12-24 V DC**
 2. **ADS8866 provides high 16-bit resolution and sampling rate of 100k Hz.**
-
-Upcoming: MicroController circuit interfaced to the ADC circuit and communicating with PC via Direct SPI/I2C to USB bridge over USB Type-C. 
+3. A low pass filter removes high frequency noise. 
+4. Circuit to be designed in open-source KiCad. The circuit diagrams are printed and the components soldered on the board. Electically shielded box is usually preferred.
+5. MicroController circuit interfaced to the ADC circuit and communicating with PC via Direct SPI/I2C to USB bridge over USB Type-C. 
