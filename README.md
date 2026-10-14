@@ -7,8 +7,8 @@ Cite this project as:
 ```bibtex
 @misc{jain2025opensensordaq,
   author       = {Jain, Harsh},
-  title        = {{OpenSensorDAQ}: Fast High-Resolution (16-bit) Analog Sensor
-                  Data Acquisition System with Low Noise Characteristics},
+  title        = {{OpenSensorDAQ}: Fast High-Resolution and Low-cost Analog Sensor
+                  Data Acquisition System},
   year         = {2025},
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/harshjn/OpenSensorDAQ}}
