@@ -16,7 +16,8 @@ Cite this project as:
 ```
 1. **Sensor**: 0.2MPa pressure sensor, https://robu.in/product/pro-range-pr12-p145b-pressure-sensors-00-2mpa-0-54-5v-g1-4
 2. **Analog-Digital DAQ**: National Instruments USB-6002, https://www.digikey.in/en/products/detail/ni/782602-01/12817647
-3. **Amplifier Design**: Based on AD624, https://github.com/harshjn/OpenSensorDAQ/blob/main/Amplifier%20Gain%20Circuit%20diagram.jpg
+3. **Amplifier Design**: Based on AD624, Calculate least count online and check design here:
+https://harshjn.com/static/AD624_Amplifier_Design.html
 
 Electronic transducers typically utilize Wheatstone bridge configurations serve that serve as the foundation for numerous sensing methodologies, including strain gauges, pressure transducers, and load cells. These impedance-based sensors operate on the principle of resistance variation converted to measurable voltage differentials.
 
